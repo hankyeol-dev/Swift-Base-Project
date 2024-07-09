@@ -15,4 +15,10 @@ extension UIView: SetId {
     static var id: String {
         String(describing: self)
     }
+    
+    
+    func getWindowWidth() -> CGFloat {
+        let window = UIApplication.shared.connectedScenes.first as! UIWindowScene
+        return window.screen.bounds.width
+    }
 }

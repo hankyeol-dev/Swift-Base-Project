@@ -10,6 +10,7 @@ import UIKit
 class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .systemBackground
         configureAction()
     }
 
@@ -44,7 +45,7 @@ extension BaseViewController {
         let left = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(goBack))
         
         if let color = c {
-            left.tintColor = c
+            left.tintColor = color
         } else {
             left.tintColor = .systemGray
         }
@@ -79,5 +80,4 @@ extension BaseViewController {
     func goBack() {
         navigationController?.popViewController(animated: true)
     }
-    
 }
