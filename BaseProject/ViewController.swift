@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: BaseViewController {
+    private let testView = TestView()
+    
+    override func loadView() {
+        self.view = testView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
