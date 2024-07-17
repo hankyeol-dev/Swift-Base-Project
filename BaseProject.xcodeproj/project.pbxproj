@@ -11,6 +11,7 @@
 		8122ECB32C3CF25200A0F57A /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122ECB22C3CF25200A0F57A /* Extension+UIButton.swift */; };
 		81753A1A2C3D71A40076744B /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81753A192C3D71A40076744B /* BaseButton.swift */; };
 		81753A1C2C3D72FA0076744B /* StyledFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81753A1B2C3D72FA0076744B /* StyledFilledButton.swift */; };
+		81965EDB2C3E4CD5008BEDEB /* CarbonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81965EDA2C3E4CD5008BEDEB /* CarbonTest.swift */; };
 		81B0CEB62C3C225E006853F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEB52C3C225E006853F9 /* AppDelegate.swift */; };
 		81B0CEB82C3C225E006853F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEB72C3C225E006853F9 /* SceneDelegate.swift */; };
 		81B0CEBA2C3C225E006853F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEB92C3C225E006853F9 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		8122ECB22C3CF25200A0F57A /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
 		81753A192C3D71A40076744B /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		81753A1B2C3D72FA0076744B /* StyledFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledFilledButton.swift; sourceTree = "<group>"; };
+		81965EDA2C3E4CD5008BEDEB /* CarbonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonTest.swift; sourceTree = "<group>"; };
 		81B0CEB22C3C225E006853F9 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B0CEB52C3C225E006853F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B0CEB72C3C225E006853F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				81B0CECC2C3C23D0006853F9 /* Base */,
 				81B0CED92C3C2857006853F9 /* Styled */,
 				81B0CEDD2C3C29D3006853F9 /* TestView.swift */,
+				81965EDA2C3E4CD5008BEDEB /* CarbonTest.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				8122ECB12C3CEFA800A0F57A /* StyledCapsuleButton.swift in Sources */,
 				81B0CED82C3C27C2006853F9 /* BaseCollectionItem.swift in Sources */,
 				8122ECB32C3CF25200A0F57A /* Extension+UIButton.swift in Sources */,
+				81965EDB2C3E4CD5008BEDEB /* CarbonTest.swift in Sources */,
 				81B0CEBA2C3C225E006853F9 /* ViewController.swift in Sources */,
 				81B0CEE12C3C2A89006853F9 /* BaseViewController.swift in Sources */,
 				81B0CEB62C3C225E006853F9 /* AppDelegate.swift in Sources */,

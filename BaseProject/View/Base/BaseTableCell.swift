@@ -7,6 +7,31 @@
 
 import UIKit
 
+protocol TableViewCellReuseProtocol {
+    static func register(tableView: UITableView)
+    static func dequeueReusableCell(tableView: UITableView) -> Self
+    static var reuseIdentifier: String { get }
+}
+
+extension TableViewCellReuseProtocol where Self: UITableViewCell {
+    // Self가 TableViewCell 일때 채용되는 extension
+    
+    static func register(tableView: UITableView) {
+        tableView.register(self, forCellReuseIdentifier: self.reuseIdentifier)
+    }
+    
+    static func dequeueReusableCell(tableView: UITableView) -> Self {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: self.reuseIdentifier) else {
+            fatalError("\(self.reuseIdentifier)를 찾을 수 없음")
+        }
+        return cell as! Self
+    }
+    
+    static var reuseIdentifier: String {
+        return String(describing: self)
+    }
+}
+
 class BaseTableCell: UITableViewCell {
     @available(*, unavailable)
     required init?(coder: NSCoder) {
