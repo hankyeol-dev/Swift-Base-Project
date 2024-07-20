@@ -39,6 +39,16 @@
 		81B0CEDB2C3C2881006853F9 /* StyledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEDA2C3C2881006853F9 /* StyledLabel.swift */; };
 		81B0CEDE2C3C29D3006853F9 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEDD2C3C29D3006853F9 /* TestView.swift */; };
 		81B0CEE12C3C2A89006853F9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0CEE02C3C2A89006853F9 /* BaseViewController.swift */; };
+		81C881C72C4A53B900670747 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881C62C4A53B900670747 /* CoordinatorProtocol.swift */; };
+		81C881C92C4B895000670747 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881C82C4B895000670747 /* AuthCoordinator.swift */; };
+		81C881CB2C4B8B3600670747 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881CA2C4B8B3600670747 /* AppCoordinator.swift */; };
+		81C881CE2C4B8D1500670747 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881CD2C4B8D1500670747 /* HomeVC.swift */; };
+		81C881D02C4B92AF00670747 /* HomeTabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881CF2C4B92AF00670747 /* HomeTabbarCoordinator.swift */; };
+		81C881D22C4B948200670747 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D12C4B948200670747 /* ProfileVC.swift */; };
+		81C881D42C4B954100670747 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D32C4B954100670747 /* AuthVC.swift */; };
+		81C881D62C4B957600670747 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D52C4B957600670747 /* HomeCoordinator.swift */; };
+		81C881D82C4B967800670747 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D72C4B967800670747 /* ProfileCoordinator.swift */; };
+		81C881DA2C4BB2CB00670747 /* HomeSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D92C4BB2CB00670747 /* HomeSecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +86,16 @@
 		81B0CEDD2C3C29D3006853F9 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		81B0CEE02C3C2A89006853F9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		81B0CEE22C3CBC0E006853F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		81C881C62C4A53B900670747 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		81C881C82C4B895000670747 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		81C881CA2C4B8B3600670747 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		81C881CD2C4B8D1500670747 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		81C881CF2C4B92AF00670747 /* HomeTabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabbarCoordinator.swift; sourceTree = "<group>"; };
+		81C881D12C4B948200670747 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		81C881D32C4B954100670747 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		81C881D52C4B957600670747 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		81C881D72C4B967800670747 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		81C881D92C4BB2CB00670747 /* HomeSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +184,7 @@
 		81B0CEB42C3C225E006853F9 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				81C881C52C4A53A600670747 /* Coordinate */,
 				816AA5AE2C49F6C9007C7598 /* Table+asyncawait */,
 				816AA5A32C49561F007C7598 /* Viper */,
 				813C50DE2C493CDA00317673 /* Compositional+Diffable */,
@@ -224,6 +245,31 @@
 				813C50D12C48927A00317673 /* BaseWithTypeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		81C881C52C4A53A600670747 /* Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				81C881CC2C4B8D0700670747 /* VCs */,
+				81C881C62C4A53B900670747 /* CoordinatorProtocol.swift */,
+				81C881C82C4B895000670747 /* AuthCoordinator.swift */,
+				81C881CA2C4B8B3600670747 /* AppCoordinator.swift */,
+				81C881CF2C4B92AF00670747 /* HomeTabbarCoordinator.swift */,
+				81C881D52C4B957600670747 /* HomeCoordinator.swift */,
+				81C881D72C4B967800670747 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinate;
+			sourceTree = "<group>";
+		};
+		81C881CC2C4B8D0700670747 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				81C881CD2C4B8D1500670747 /* HomeVC.swift */,
+				81C881D92C4BB2CB00670747 /* HomeSecondVC.swift */,
+				81C881D12C4B948200670747 /* ProfileVC.swift */,
+				81C881D32C4B954100670747 /* AuthVC.swift */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,29 +350,39 @@
 			files = (
 				816AA5B22C49FA4C007C7598 /* MovieModel.swift in Sources */,
 				81753A1A2C3D71A40076744B /* BaseButton.swift in Sources */,
+				81C881C72C4A53B900670747 /* CoordinatorProtocol.swift in Sources */,
 				816AA5AB2C495642007C7598 /* Entity.swift in Sources */,
 				81B0CED42C3C2490006853F9 /* Extenstion+UIView.swift in Sources */,
 				813C50D52C4894EB00317673 /* BaseViewModel.swift in Sources */,
 				81B0CEDB2C3C2881006853F9 /* StyledLabel.swift in Sources */,
 				81B0CED62C3C2757006853F9 /* BaseTableCell.swift in Sources */,
 				8122ECB12C3CEFA800A0F57A /* StyledCapsuleButton.swift in Sources */,
+				81C881CE2C4B8D1500670747 /* HomeVC.swift in Sources */,
+				81C881D82C4B967800670747 /* ProfileCoordinator.swift in Sources */,
 				81B0CED82C3C27C2006853F9 /* BaseCollectionItem.swift in Sources */,
 				813C50D22C48927A00317673 /* BaseWithTypeViewController.swift in Sources */,
 				8122ECB32C3CF25200A0F57A /* Extension+UIButton.swift in Sources */,
 				81B0CEBA2C3C225E006853F9 /* ViewController.swift in Sources */,
 				816AA5A72C495637007C7598 /* Interactor.swift in Sources */,
+				81C881D02C4B92AF00670747 /* HomeTabbarCoordinator.swift in Sources */,
 				816AA5AD2C495648007C7598 /* Router.swift in Sources */,
 				81B0CEE12C3C2A89006853F9 /* BaseViewController.swift in Sources */,
+				81C881D42C4B954100670747 /* AuthVC.swift in Sources */,
+				81C881D62C4B957600670747 /* HomeCoordinator.swift in Sources */,
 				813C50D72C48954A00317673 /* TestViewModel.swift in Sources */,
+				81C881DA2C4BB2CB00670747 /* HomeSecondVC.swift in Sources */,
 				81B0CEB62C3C225E006853F9 /* AppDelegate.swift in Sources */,
 				81753A1C2C3D72FA0076744B /* StyledFilledButton.swift in Sources */,
 				816AA5B42C49FA7B007C7598 /* ENV.swift in Sources */,
+				81C881CB2C4B8B3600670747 /* AppCoordinator.swift in Sources */,
 				81B0CEDE2C3C29D3006853F9 /* TestView.swift in Sources */,
 				813C50E52C49477100317673 /* CollectionSections.swift in Sources */,
 				813C50E02C493CFE00317673 /* CompositionalSettingViewController.swift in Sources */,
 				816AA5A92C49563C007C7598 /* Presenter.swift in Sources */,
+				81C881C92C4B895000670747 /* AuthCoordinator.swift in Sources */,
 				81B0CEB82C3C225E006853F9 /* SceneDelegate.swift in Sources */,
 				813C50E72C494BA200317673 /* CollectionHeaderView.swift in Sources */,
+				81C881D22C4B948200670747 /* ProfileVC.swift in Sources */,
 				816AA5B02C49F6E2007C7598 /* AsyncTableViewcontroller.swift in Sources */,
 				81B0CECE2C3C23DD006853F9 /* BaseView.swift in Sources */,
 				816AA5A52C49562B007C7598 /* View.swift in Sources */,
