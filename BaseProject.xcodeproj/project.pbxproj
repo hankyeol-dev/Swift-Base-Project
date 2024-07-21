@@ -49,6 +49,8 @@
 		81C881D62C4B957600670747 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D52C4B957600670747 /* HomeCoordinator.swift */; };
 		81C881D82C4B967800670747 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D72C4B967800670747 /* ProfileCoordinator.swift */; };
 		81C881DA2C4BB2CB00670747 /* HomeSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C881D92C4BB2CB00670747 /* HomeSecondVC.swift */; };
+		81D5BB832C4CEB2100D6617F /* ReuseCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5BB822C4CEB2100D6617F /* ReuseCollectionItem.swift */; };
+		81D5BB852C4CEC9400D6617F /* ReuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5BB842C4CEC9400D6617F /* ReuseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,8 @@
 		81C881D52C4B957600670747 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		81C881D72C4B967800670747 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		81C881D92C4BB2CB00670747 /* HomeSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecondVC.swift; sourceTree = "<group>"; };
+		81D5BB822C4CEB2100D6617F /* ReuseCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseCollectionItem.swift; sourceTree = "<group>"; };
+		81D5BB842C4CEC9400D6617F /* ReuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,7 @@
 				81C881C52C4A53A600670747 /* Coordinate */,
 				816AA5AE2C49F6C9007C7598 /* Table+asyncawait */,
 				816AA5A32C49561F007C7598 /* Viper */,
+				81D5BB812C4CEB0400D6617F /* Compositional+Collection */,
 				813C50DE2C493CDA00317673 /* Compositional+Diffable */,
 				813C50DD2C493C8900317673 /* Base+View+ViewModel */,
 				81B0CEB52C3C225E006853F9 /* AppDelegate.swift */,
@@ -270,6 +275,15 @@
 				81C881D32C4B954100670747 /* AuthVC.swift */,
 			);
 			path = VCs;
+			sourceTree = "<group>";
+		};
+		81D5BB812C4CEB0400D6617F /* Compositional+Collection */ = {
+			isa = PBXGroup;
+			children = (
+				81D5BB822C4CEB2100D6617F /* ReuseCollectionItem.swift */,
+				81D5BB842C4CEC9400D6617F /* ReuseViewController.swift */,
+			);
+			path = "Compositional+Collection";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +374,7 @@
 				81C881CE2C4B8D1500670747 /* HomeVC.swift in Sources */,
 				81C881D82C4B967800670747 /* ProfileCoordinator.swift in Sources */,
 				81B0CED82C3C27C2006853F9 /* BaseCollectionItem.swift in Sources */,
+				81D5BB852C4CEC9400D6617F /* ReuseViewController.swift in Sources */,
 				813C50D22C48927A00317673 /* BaseWithTypeViewController.swift in Sources */,
 				8122ECB32C3CF25200A0F57A /* Extension+UIButton.swift in Sources */,
 				81B0CEBA2C3C225E006853F9 /* ViewController.swift in Sources */,
@@ -375,6 +390,7 @@
 				81753A1C2C3D72FA0076744B /* StyledFilledButton.swift in Sources */,
 				816AA5B42C49FA7B007C7598 /* ENV.swift in Sources */,
 				81C881CB2C4B8B3600670747 /* AppCoordinator.swift in Sources */,
+				81D5BB832C4CEB2100D6617F /* ReuseCollectionItem.swift in Sources */,
 				81B0CEDE2C3C29D3006853F9 /* TestView.swift in Sources */,
 				813C50E52C49477100317673 /* CollectionSections.swift in Sources */,
 				813C50E02C493CFE00317673 /* CompositionalSettingViewController.swift in Sources */,
